@@ -1,0 +1,25 @@
+title:              Yaron Zvi Developer Blog
+email:              yaron.zvi@gmail.com
+description:        A Blog Theme by Start Bootstrap
+author:             yaron zvi
+baseurl:            ""
+url:                "https://yaronzvi.co.il"
+
+# Social Profiles
+twitter_username:   zvi_yaron
+github_username:    yaronzvi
+facebook_username:  yaronzvideveloper
+instagram_username: yaronzvi 
+linkedin_username: yaron-zvi-682b9214/
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
